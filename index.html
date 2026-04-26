@@ -955,7 +955,7 @@
       if (!name || !product || !address) {
         alert('من فضلك اكمل البيانات المطلوبة'); return;
       }
-      const waNumber = '201120321315'; // رقم الواتساب بدون + أو 00
+      const waNumber = '201029984030'; // رقم الواتساب بدون + أو 00
       const msg = `🌟 *طلب جديد - عود رويال*\n\n👤 الاسم: ${name}\n📞 الهاتف: ${phone}\n🛒 العطر: ${product}\n📍 العنوان: ${address}${notes ? '\n📝 ملاحظات: ' + notes : ''}`;
       window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(msg)}`, '_blank');
       document.getElementById('form-inner').style.display = 'none';
